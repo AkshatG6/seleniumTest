@@ -16,7 +16,7 @@ public class SeleniumTest {
 		 Thread.sleep(2000);
 		 
 		 WebElement txtbox_email = driver.findElement(By.id("identifierId"));
-		 txtbox_email.sendKeys("akshatgandhi6")
+		 txtbox_email.sendKeys("akshatgandhi6");
 		 Thread.sleep(2000);
 		 driver.findElement(By.className("VfPpkd-RLmnJb")).click();
 		 String at = driver.getTitle();
